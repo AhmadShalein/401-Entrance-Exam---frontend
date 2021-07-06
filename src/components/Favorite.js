@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
+import UpdateForm from './UpdateForm';
 
 class Favorite extends React.Component{
     constructor(props){
@@ -78,7 +79,7 @@ class Favorite extends React.Component{
                     )
                 })}
             </Row>
-
+            <Updateform show={this.state.showForm} handleClose={this.onHide} strDrink={this.state.strDrink} strDrinkThumb={this.state.strDrinkThumb} idDrink={this.state.idDrink} updateData={this.updateDrink} />
         </div>
         );
     }

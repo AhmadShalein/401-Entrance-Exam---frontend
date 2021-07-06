@@ -12,7 +12,7 @@ class UpdateForm extends React.Component {
                 <Modal.Title>Update Form</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-            <Form onSubmit={this.props.updatedData}>
+            <Form onSubmit={this.props.updateData}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>strDrink</Form.Label>
                 <Form.Control type="text" name='strDrink' defalutValue={this.props.strDrink} />
