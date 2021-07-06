@@ -79,7 +79,7 @@ class Favorite extends React.Component{
                     )
                 })}
             </Row>
-            <Updateform show={this.state.showForm} handleClose={this.onHide} strDrink={this.state.strDrink} strDrinkThumb={this.state.strDrinkThumb} idDrink={this.state.idDrink} updateData={this.updateDrink} />
+            <UpdateForm show={this.state.showForm} handleClose={this.onHide} strDrink={this.state.strDrink} strDrinkThumb={this.state.strDrinkThumb} idDrink={this.state.idDrink} updateData={this.updateDrink} />
         </div>
         );
     }
